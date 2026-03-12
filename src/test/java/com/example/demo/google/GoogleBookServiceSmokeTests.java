@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import com.example.demo.dto.GoogleBook;
+import com.example.demo.service.GoogleBookService;
+
 /**
  * Smoke test: Calls the real Google Books API. Intended for CI smoke, may be flaky without network.
  */

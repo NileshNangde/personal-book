@@ -8,6 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.DynamicPropertyRegistry;
 import org.springframework.test.context.DynamicPropertySource;
 
+import com.example.demo.dto.GoogleBook;
+import com.example.demo.service.GoogleBookService;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;

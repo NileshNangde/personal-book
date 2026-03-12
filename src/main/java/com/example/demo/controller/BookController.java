@@ -1,9 +1,10 @@
-package com.example.demo;
+package com.example.demo.controller;
 
-import com.example.demo.db.Book;
-import com.example.demo.db.BookRepository;
-import com.example.demo.google.GoogleBook;
-import com.example.demo.google.GoogleBookService;
+import com.example.demo.dto.GoogleBook;
+import com.example.demo.entity.Book;
+import com.example.demo.repository.BookRepository;
+import com.example.demo.service.GoogleBookService;
+
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
